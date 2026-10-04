@@ -860,7 +860,7 @@ export default function TankGame() {
         ctx.font = "bold 36px sans-serif";
         const title =
           s.status === "ready"
-            ? "坦克大战"
+            ? "坦克动荡"
             : s.status === "paused"
             ? "已暂停"
             : s.status === "won"
